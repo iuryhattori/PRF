@@ -1,14 +1,30 @@
 {
+    "evPrestDesacordo": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "evPrestDesacordo/descEvento": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evPrestDesacordo/indDesacordoOper": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evPrestDesacordo/xObs": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

@@ -1,14 +1,166 @@
 {
+    "Signature": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignatureType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "Signature/SignedInfo": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignedInfoType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignedInfo/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "Signature/SignedInfo/CanonicalizationMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignedInfo/CanonicalizationMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "Signature/SignedInfo/SignatureMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignedInfo/SignatureMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "Signature/SignedInfo/Reference": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}ReferenceType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignedInfo/Reference/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "Signature/SignedInfo/Reference/@URI": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "Signature/SignedInfo/Reference/@Type": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "Signature/SignedInfo/Reference/Transforms": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TransformsType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignedInfo/Reference/Transforms/Transform": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TransformType",
+        "kind": "element",
+        "min_occurs": 2,
+        "max_occurs": 2
+    },
+    "Signature/SignedInfo/Reference/Transforms/Transform/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TTransformURI",
+        "kind": "attribute",
+        "use": "required"
+    },
     "Signature/SignedInfo/Reference/Transforms/Transform/XPath": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2001/XMLSchema}string"
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}string",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignedInfo/Reference/DigestMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignedInfo/Reference/DigestMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
     },
     "Signature/SignedInfo/Reference/DigestValue": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignatureValue": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignatureValueType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/SignatureValue/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "Signature/KeyInfo": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}KeyInfoType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "Signature/KeyInfo/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "Signature/KeyInfo/X509Data": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}X509DataType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "Signature/KeyInfo/X509Data/X509Certificate": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}base64Binary",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

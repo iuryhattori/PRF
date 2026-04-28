@@ -1,38 +1,86 @@
 {
+    "rodo": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "rodo/RNTRC": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "rodo/occ": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 10
     },
     "rodo/occ/serie": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "rodo/occ/nOcc": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodo/occ/dEmi": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TData",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "rodo/occ/emiOcc": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodo/occ/emiOcc/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpj",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodo/occ/emiOcc/cInt": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "rodo/occ/emiOcc/IE": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TIe"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TIe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodo/occ/emiOcc/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodo/occ/emiOcc/fone": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TFone",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     }
 }

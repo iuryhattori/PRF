@@ -1,42 +1,86 @@
 {
+    "evCECTe": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "evCECTe/descEvento": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evCECTe/nProt": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TProt",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evCECTe/dhEntrega": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evCECTe/nDoc": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evCECTe/xNome": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evCECTe/latitude": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TLatitude"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TLatitude",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "evCECTe/longitude": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TLongitude"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TLongitude",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "evCECTe/hashEntrega": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evCECTe/dhHashEntrega": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "evCECTe/infEntrega": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 2000
     },
     "evCECTe/infEntrega/chNFe": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TChDFe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

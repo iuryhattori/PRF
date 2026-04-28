@@ -1,10 +1,23 @@
 {
+    "evCancPrestDesacordo": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "evCancPrestDesacordo/descEvento": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evCancPrestDesacordo/nProtEvPrestDes": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TProt",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

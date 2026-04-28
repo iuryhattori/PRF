@@ -1,50 +1,121 @@
 {
+    "aereo": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "aereo/nMinu": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "aereo/nOCA": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "aereo/dPrevAereo": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TData",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "aereo/natCarga": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aereo/natCarga/xDime": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "aereo/natCarga/cInfManu": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": null
+    },
+    "aereo/tarifa": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aereo/tarifa/CL": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aereo/tarifa/cTar": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "aereo/tarifa/vTar": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_1302",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "aereo/peri": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": null
     },
     "aereo/peri/nONU": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aereo/peri/qTotEmb": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "aereo/peri/infTotAP": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aereo/peri/infTotAP/qTotProd": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1104"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_1104",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aereo/peri/infTotAP/uniAP": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

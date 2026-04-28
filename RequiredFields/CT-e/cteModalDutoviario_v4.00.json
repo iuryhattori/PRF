@@ -1,34 +1,65 @@
 {
+    "duto": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "duto/vTar": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_0906Opc"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_0906Opc",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "duto/dIni": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TData",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "duto/dFim": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TData",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "duto/classDuto": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "duto/tpContratacao": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "duto/codPontoEntrada": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "duto/codPontoSaida": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "duto/nContrato": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     }
 }

@@ -1,62 +1,156 @@
 {
+    "aquav": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "aquav/vPrest": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_1302",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aquav/vAFRMM": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_1302",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aquav/xNavio": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "aquav/balsa": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 3
     },
     "aquav/balsa/xBalsa": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aquav/nViag": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "aquav/direc": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aquav/irin": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "aquav/detCont": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": null
     },
     "aquav/detCont/nCont": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TContainer"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TContainer",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "aquav/detCont/lacre": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 3
     },
     "aquav/detCont/lacre/nLacre": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "aquav/detCont/infDoc": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "aquav/detCont/infDoc/infNF": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": null
     },
     "aquav/detCont/infDoc/infNF/serie": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aquav/detCont/infDoc/infNF/nDoc": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aquav/detCont/infDoc/infNF/unidRat": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_0302_0303"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_0302_0303",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "aquav/detCont/infDoc/infNFe": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": null
     },
     "aquav/detCont/infDoc/infNFe/chave": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TChDFe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "aquav/detCont/infDoc/infNFe/unidRat": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_0302_0303"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_0302_0303",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "aquav/tpNav": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     }
 }

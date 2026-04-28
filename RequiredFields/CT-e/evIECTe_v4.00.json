@@ -1,46 +1,93 @@
 {
+    "evIECTe": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "evIECTe/descEvento": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evIECTe/nProt": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TProt",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evIECTe/dhTentativaEntrega": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evIECTe/nTentativa": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "evIECTe/tpMotivo": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "evIECTe/xJustMotivo": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "evIECTe/latitude": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TLatitude"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TLatitude",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "evIECTe/longitude": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TLongitude"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TLongitude",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "evIECTe/hashTentativaEntrega": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "evIECTe/dhHashTentativaEntrega": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "evIECTe/infEntrega": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 2000
     },
     "evIECTe/infEntrega/chNFe": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TChDFe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

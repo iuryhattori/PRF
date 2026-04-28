@@ -1,542 +1,1281 @@
 {
+    "GTVe": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TGTVe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/@versao": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "GTVe/infCte": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/@versao": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "GTVe/infCte/@Id": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "GTVe/infCte/ide": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "GTVe/infCte/ide/cUF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/cCT": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/CFOP": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCfop"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCfop",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/natOp": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/mod": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TModGTVe"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TModGTVe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/serie": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/nCT": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TNF"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TNF",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/dhEmi": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tpImp": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tpEmis": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/cDV": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tpAmb": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TAmb",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tpCTe": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/verProc": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/cMunEnv": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/xMunEnv": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/UFEnv": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/modal": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tpServ": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/indIEToma": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/dhSaidaOrig": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/dhChegadaDest": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/ide/toma": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/toma/toma": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/ide/tomaTerceiro": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/toma": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/CPF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCpf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/IE": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/xNome": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/xFant": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/fone": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TFone",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/ide/tomaTerceiro/enderToma": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEndereco",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/xLgr": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/nro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/xCpl": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/xBairro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/cMun": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/xMun": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/CEP": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/cPais": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/enderToma/xPais": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/tomaTerceiro/email": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TEmail"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEmail",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/dhCont": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/ide/xJust": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/compl": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/compl/xCaracAd": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/compl/xCaracSer": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/compl/xEmi": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/compl/xObs": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/compl/ObsCont": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 10
+    },
+    "GTVe/infCte/compl/ObsCont/@xCampo": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
     },
     "GTVe/infCte/compl/ObsCont/xTexto": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/compl/ObsFisco": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 10
+    },
+    "GTVe/infCte/compl/ObsFisco/@xCampo": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
     },
     "GTVe/infCte/compl/ObsFisco/xTexto": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/emit": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpj",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/IE": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/IEST": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/xNome": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/xFant": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/emit/enderEmit": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEndeEmi",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/xLgr": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/nro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/xCpl": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/xBairro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/cMun": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/xMun": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/CEP": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/emit/enderEmit/fone": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TFone",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/rem": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/CPF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCpf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/IE": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/xNome": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/xFant": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/fone": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TFone",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/rem/enderReme": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEndereco",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/xLgr": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/nro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/xCpl": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/xBairro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/cMun": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/xMun": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/CEP": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/cPais": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/enderReme/xPais": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/rem/email": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/dest": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/CPF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCpf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/IE": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/xNome": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/fone": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TFone",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/ISUF": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/dest/enderDest": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEndereco",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/xLgr": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/nro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/xCpl": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/xBairro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/cMun": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/xMun": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/CEP": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/cPais": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/enderDest/xPais": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/dest/email": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TEmail"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEmail",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/origem": {
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEndeEmi",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/xLgr": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/nro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/xCpl": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/xBairro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/cMun": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/xMun": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/CEP": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/origem/fone": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TFone",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/destino": {
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEndeEmi",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/xLgr": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/nro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/xCpl": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/xBairro": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/cMun": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/xMun": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/CEP": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/destino/fone": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TFone",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/detGTV": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/detGTV/infEspecie": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": null
     },
     "GTVe/infCte/detGTV/infEspecie/tpEspecie": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/detGTV/infEspecie/vEspecie": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_1302",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/detGTV/infEspecie/tpNumerario": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/detGTV/infEspecie/xMoedaEstr": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/detGTV/qCarga": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1104"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_1104",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/detGTV/infVeiculo": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": null
     },
     "GTVe/infCte/detGTV/infVeiculo/placa": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TPlaca"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TPlaca",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/detGTV/infVeiculo/UF": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/detGTV/infVeiculo/RNTRC": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/autXML": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 10
     },
     "GTVe/infCte/autXML/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpj",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/autXML/CPF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCpf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCte/infRespTec": {
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TRespTec",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCte/infRespTec/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpj",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/infRespTec/xContato": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/infRespTec/email": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TEmail"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEmail",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/infRespTec/fone": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/infRespTec/idCSRT": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/infCte/infRespTec/hashCSRT": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/infCTeSupl": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "GTVe/infCTeSupl/qrCodCTe": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignatureType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "GTVe/Signature/SignedInfo": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignedInfoType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignedInfo/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "GTVe/Signature/SignedInfo/CanonicalizationMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignedInfo/CanonicalizationMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "GTVe/Signature/SignedInfo/SignatureMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignedInfo/SignatureMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "GTVe/Signature/SignedInfo/Reference": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}ReferenceType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignedInfo/Reference/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "GTVe/Signature/SignedInfo/Reference/@URI": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "GTVe/Signature/SignedInfo/Reference/@Type": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "GTVe/Signature/SignedInfo/Reference/Transforms": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TransformsType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignedInfo/Reference/Transforms/Transform": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TransformType",
+        "kind": "element",
+        "min_occurs": 2,
+        "max_occurs": 2
+    },
+    "GTVe/Signature/SignedInfo/Reference/Transforms/Transform/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TTransformURI",
+        "kind": "attribute",
+        "use": "required"
     },
     "GTVe/Signature/SignedInfo/Reference/Transforms/Transform/XPath": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2001/XMLSchema}string"
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}string",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignedInfo/Reference/DigestMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignedInfo/Reference/DigestMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
     },
     "GTVe/Signature/SignedInfo/Reference/DigestValue": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignatureValue": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignatureValueType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/SignatureValue/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "GTVe/Signature/KeyInfo": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}KeyInfoType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "GTVe/Signature/KeyInfo/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "GTVe/Signature/KeyInfo/X509Data": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}X509DataType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "GTVe/Signature/KeyInfo/X509Data/X509Certificate": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}base64Binary",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

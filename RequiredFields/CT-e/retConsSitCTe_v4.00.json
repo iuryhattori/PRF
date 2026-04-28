@@ -1,22 +1,76 @@
 {
+    "retConsSitCTe": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TRetConsSitCTe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retConsSitCTe/@versao": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TVerConsSitCTe",
+        "kind": "attribute",
+        "use": "required"
+    },
     "retConsSitCTe/tpAmb": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TAmb",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsSitCTe/verAplic": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TVerAplic"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TVerAplic",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsSitCTe/cStat": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TStat"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TStat",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsSitCTe/xMotivo": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TMotivo",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsSitCTe/cUF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retConsSitCTe/protCTe": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "retConsSitCTe/protCTe/@versao": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "retConsSitCTe/procEventoCTe": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": null
+    },
+    "retConsSitCTe/procEventoCTe/@versao": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
     }
 }

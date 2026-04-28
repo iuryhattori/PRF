@@ -1,26 +1,65 @@
 {
+    "multimodal": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "multimodal/COTM": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "multimodal/indNegociavel": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "multimodal/seg": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "multimodal/seg/infSeg": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "multimodal/seg/infSeg/xSeg": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "multimodal/seg/infSeg/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "multimodal/seg/nApol": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "multimodal/seg/nAver": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

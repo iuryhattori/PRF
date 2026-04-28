@@ -1,74 +1,317 @@
 {
+    "retGTVe": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TRetGTVe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/@versao": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TVerCTe",
+        "kind": "attribute",
+        "use": "required"
+    },
     "retGTVe/tpAmb": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TAmb",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/cUF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/verAplic": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TVerAplic"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TVerAplic",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/cStat": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TStat"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TStat",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/xMotivo": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TMotivo",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe": {
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TProtGTVe",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/@versao": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "retGTVe/protCTe/infProt": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/infProt/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
     },
     "retGTVe/protCTe/infProt/tpAmb": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TAmb",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infProt/verAplic": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TVerAplic"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TVerAplic",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infProt/chCTe": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TChDFe",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infProt/dhRecbto": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infProt/nProt": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TProt",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infProt/digVal": {
-        "Required": false,
-        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+        "required": false,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infProt/cStat": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infProt/xMotivo": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TMotivo",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/infFisco": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infFisco/cMsg": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/infFisco/xMsg": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TMotivo",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature": {
+        "required": false,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignatureType",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "retGTVe/protCTe/Signature/SignedInfo": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignedInfoType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/CanonicalizationMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/CanonicalizationMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/SignatureMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/SignatureMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}ReferenceType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference/@URI": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference/@Type": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference/Transforms": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TransformsType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference/Transforms/Transform": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TransformType",
+        "kind": "element",
+        "min_occurs": 2,
+        "max_occurs": 2
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference/Transforms/Transform/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}TTransformURI",
+        "kind": "attribute",
+        "use": "required"
     },
     "retGTVe/protCTe/Signature/SignedInfo/Reference/Transforms/Transform/XPath": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2001/XMLSchema}string"
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}string",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference/DigestMethod": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignedInfo/Reference/DigestMethod/@Algorithm": {
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}anyURI",
+        "kind": "attribute",
+        "use": "required"
     },
     "retGTVe/protCTe/Signature/SignedInfo/Reference/DigestValue": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignatureValue": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}SignatureValueType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/SignatureValue/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "retGTVe/protCTe/Signature/KeyInfo": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}KeyInfoType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retGTVe/protCTe/Signature/KeyInfo/@Id": {
+        "required": false,
+        "type": "{http://www.w3.org/2001/XMLSchema}ID",
+        "kind": "attribute",
+        "use": "optional"
+    },
+    "retGTVe/protCTe/Signature/KeyInfo/X509Data": {
+        "required": true,
+        "type": "{http://www.w3.org/2000/09/xmldsig#}X509DataType",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retGTVe/protCTe/Signature/KeyInfo/X509Data/X509Certificate": {
-        "Required": true,
-        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+        "required": true,
+        "type": "{http://www.w3.org/2001/XMLSchema}base64Binary",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

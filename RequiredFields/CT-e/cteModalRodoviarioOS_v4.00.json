@@ -1,62 +1,135 @@
 {
+    "rodoOS": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "rodoOS/TAF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TTermoAutFreta"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TTermoAutFreta",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/NroRegEstadual": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TNroRegEstadual"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TNroRegEstadual",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "rodoOS/veic": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "rodoOS/veic/placa": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/RENAVAM": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "rodoOS/veic/prop": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "rodoOS/veic/prop/CPF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCpf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/prop/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/prop/TAF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TTermoAutFreta"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TTermoAutFreta",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/prop/NroRegEstadual": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TNroRegEstadual"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TNroRegEstadual",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/prop/xNome": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/prop/IE": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/prop/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/prop/tpProp": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/veic/UF": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "rodoOS/infFretamento": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "rodoOS/infFretamento/tpFretamento": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "rodoOS/infFretamento/dhViagem": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     }
 }

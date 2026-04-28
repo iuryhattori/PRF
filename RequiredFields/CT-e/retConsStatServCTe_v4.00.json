@@ -1,38 +1,78 @@
 {
+    "retConsStatServCTe": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TRetConsStatServ",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "retConsStatServCTe/@versao": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TVerConsStat",
+        "kind": "attribute",
+        "use": "required"
+    },
     "retConsStatServCTe/tpAmb": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TAmb",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsStatServCTe/verAplic": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsStatServCTe/cStat": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TStat"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TStat",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsStatServCTe/xMotivo": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TMotivo",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsStatServCTe/cUF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsStatServCTe/dhRecbto": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "retConsStatServCTe/tMed": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "retConsStatServCTe/dhRetorno": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "retConsStatServCTe/xObs": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     }
 }

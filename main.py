@@ -22,7 +22,7 @@ def main() -> None:
     args = parser.parse_args()
 
     extractor = Extractor(xsd_path=args.xsd_path, json_path=args.json_path)
-    extractor.extract_require_fields()
+    extractor.extract_required_fields()
     print("Extração concluída!")
 
 

@@ -1,14 +1,36 @@
 {
+    "consStatServCTe": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TConsStatServ",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "consStatServCTe/@versao": {
+        "required": true,
+        "type": "unknown",
+        "kind": "attribute",
+        "use": "required"
+    },
     "consStatServCTe/tpAmb": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TAmb",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "consStatServCTe/cUF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "consStatServCTe/xServ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TServ"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TServ",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }

@@ -1,74 +1,156 @@
 {
+    "ferrov": {
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
     "ferrov/tpTraf": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "ferrov/trafMut": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "ferrov/trafMut/respFat": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferrEmi": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/vFrete": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TDec_1302",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/chCTeFerroOrigem": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TChDFe",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
+    },
+    "ferrov/trafMut/ferroEnv": {
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": null
     },
     "ferrov/trafMut/ferroEnv/CNPJ": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCnpj",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/cInt": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/IE": {
-        "Required": false,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TIe"
+        "required": false,
+        "type": "{http://www.portalfiscal.inf.br/cte}TIe",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/xNome": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro": {
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TEnderFer",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/enderFerro/xLgr": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/enderFerro/nro": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/enderFerro/xCpl": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/enderFerro/xBairro": {
-        "Required": false,
-        "Type": null
+        "required": false,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 0,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/enderFerro/cMun": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/enderFerro/xMun": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/enderFerro/CEP": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/trafMut/ferroEnv/enderFerro/UF": {
-        "Required": true,
-        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+        "required": true,
+        "type": "{http://www.portalfiscal.inf.br/cte}TUf",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     },
     "ferrov/fluxo": {
-        "Required": true,
-        "Type": null
+        "required": true,
+        "type": "anonymous",
+        "kind": "element",
+        "min_occurs": 1,
+        "max_occurs": 1
     }
 }
