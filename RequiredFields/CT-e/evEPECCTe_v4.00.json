@@ -1,0 +1,66 @@
+{
+    "evEPECCTe/descEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "evEPECCTe/xJust": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TJust"
+    },
+    "evEPECCTe/vICMS": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "evEPECCTe/vICMSST": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "evEPECCTe/vTPrest": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "evEPECCTe/vCarga": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "evEPECCTe/toma4/toma": {
+        "Required": true,
+        "Type": null
+    },
+    "evEPECCTe/toma4/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "evEPECCTe/toma4/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+    },
+    "evEPECCTe/toma4/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "evEPECCTe/toma4/IE": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TIeDest"
+    },
+    "evEPECCTe/modal": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TModTransp"
+    },
+    "evEPECCTe/UFIni": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "evEPECCTe/UFFim": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "evEPECCTe/tpCTe": {
+        "Required": true,
+        "Type": null
+    },
+    "evEPECCTe/dhEmi": {
+        "Required": true,
+        "Type": null
+    }
+}

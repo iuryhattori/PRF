@@ -1,0 +1,62 @@
+{
+    "rodoOS/TAF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TTermoAutFreta"
+    },
+    "rodoOS/NroRegEstadual": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TNroRegEstadual"
+    },
+    "rodoOS/veic/placa": {
+        "Required": true,
+        "Type": null
+    },
+    "rodoOS/veic/RENAVAM": {
+        "Required": false,
+        "Type": null
+    },
+    "rodoOS/veic/prop/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "rodoOS/veic/prop/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+    },
+    "rodoOS/veic/prop/TAF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TTermoAutFreta"
+    },
+    "rodoOS/veic/prop/NroRegEstadual": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TNroRegEstadual"
+    },
+    "rodoOS/veic/prop/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "rodoOS/veic/prop/IE": {
+        "Required": true,
+        "Type": null
+    },
+    "rodoOS/veic/prop/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "rodoOS/veic/prop/tpProp": {
+        "Required": true,
+        "Type": null
+    },
+    "rodoOS/veic/UF": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "rodoOS/infFretamento/tpFretamento": {
+        "Required": true,
+        "Type": null
+    },
+    "rodoOS/infFretamento/dhViagem": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+    }
+}

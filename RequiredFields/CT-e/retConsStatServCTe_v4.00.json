@@ -1,0 +1,38 @@
+{
+    "retConsStatServCTe/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "retConsStatServCTe/verAplic": {
+        "Required": true,
+        "Type": null
+    },
+    "retConsStatServCTe/cStat": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TStat"
+    },
+    "retConsStatServCTe/xMotivo": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+    },
+    "retConsStatServCTe/cUF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+    },
+    "retConsStatServCTe/dhRecbto": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+    },
+    "retConsStatServCTe/tMed": {
+        "Required": false,
+        "Type": null
+    },
+    "retConsStatServCTe/dhRetorno": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+    },
+    "retConsStatServCTe/xObs": {
+        "Required": false,
+        "Type": null
+    }
+}

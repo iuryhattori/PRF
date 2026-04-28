@@ -1,0 +1,26 @@
+{
+    "multimodal/COTM": {
+        "Required": true,
+        "Type": null
+    },
+    "multimodal/indNegociavel": {
+        "Required": true,
+        "Type": null
+    },
+    "multimodal/seg/infSeg/xSeg": {
+        "Required": true,
+        "Type": null
+    },
+    "multimodal/seg/infSeg/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+    },
+    "multimodal/seg/nApol": {
+        "Required": true,
+        "Type": null
+    },
+    "multimodal/seg/nAver": {
+        "Required": true,
+        "Type": null
+    }
+}

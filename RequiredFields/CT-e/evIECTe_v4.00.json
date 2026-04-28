@@ -1,0 +1,46 @@
+{
+    "evIECTe/descEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "evIECTe/nProt": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+    },
+    "evIECTe/dhTentativaEntrega": {
+        "Required": true,
+        "Type": null
+    },
+    "evIECTe/nTentativa": {
+        "Required": false,
+        "Type": null
+    },
+    "evIECTe/tpMotivo": {
+        "Required": true,
+        "Type": null
+    },
+    "evIECTe/xJustMotivo": {
+        "Required": false,
+        "Type": null
+    },
+    "evIECTe/latitude": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TLatitude"
+    },
+    "evIECTe/longitude": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TLongitude"
+    },
+    "evIECTe/hashTentativaEntrega": {
+        "Required": false,
+        "Type": null
+    },
+    "evIECTe/dhHashTentativaEntrega": {
+        "Required": false,
+        "Type": null
+    },
+    "evIECTe/infEntrega/chNFe": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "ferrov/tpTraf": {
+        "Required": true,
+        "Type": null
+    },
+    "ferrov/trafMut/respFat": {
+        "Required": true,
+        "Type": null
+    },
+    "ferrov/trafMut/ferrEmi": {
+        "Required": true,
+        "Type": null
+    },
+    "ferrov/trafMut/vFrete": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "ferrov/trafMut/chCTeFerroOrigem": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    },
+    "ferrov/trafMut/ferroEnv/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+    },
+    "ferrov/trafMut/ferroEnv/cInt": {
+        "Required": false,
+        "Type": null
+    },
+    "ferrov/trafMut/ferroEnv/IE": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TIe"
+    },
+    "ferrov/trafMut/ferroEnv/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro/xLgr": {
+        "Required": true,
+        "Type": null
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro/nro": {
+        "Required": false,
+        "Type": null
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro/xCpl": {
+        "Required": false,
+        "Type": null
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro/xBairro": {
+        "Required": false,
+        "Type": null
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro/cMun": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro/xMun": {
+        "Required": true,
+        "Type": null
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro/CEP": {
+        "Required": true,
+        "Type": null
+    },
+    "ferrov/trafMut/ferroEnv/enderFerro/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "ferrov/fluxo": {
+        "Required": true,
+        "Type": null
+    }
+}

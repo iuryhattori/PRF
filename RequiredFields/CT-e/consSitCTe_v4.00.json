@@ -1,0 +1,14 @@
+{
+    "consSitCTe/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "consSitCTe/xServ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TServ"
+    },
+    "consSitCTe/chCTe": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    }
+}

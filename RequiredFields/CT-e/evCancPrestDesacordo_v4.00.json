@@ -1,0 +1,10 @@
+{
+    "evCancPrestDesacordo/descEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "evCancPrestDesacordo/nProtEvPrestDes": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+    }
+}

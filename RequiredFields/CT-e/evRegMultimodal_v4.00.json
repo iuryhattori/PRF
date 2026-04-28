@@ -1,0 +1,14 @@
+{
+    "evRegMultimodal/descEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "evRegMultimodal/xRegistro": {
+        "Required": true,
+        "Type": null
+    },
+    "evRegMultimodal/nDoc": {
+        "Required": false,
+        "Type": null
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "evCECTe/descEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "evCECTe/nProt": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+    },
+    "evCECTe/dhEntrega": {
+        "Required": true,
+        "Type": null
+    },
+    "evCECTe/nDoc": {
+        "Required": true,
+        "Type": null
+    },
+    "evCECTe/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "evCECTe/latitude": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TLatitude"
+    },
+    "evCECTe/longitude": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TLongitude"
+    },
+    "evCECTe/hashEntrega": {
+        "Required": true,
+        "Type": null
+    },
+    "evCECTe/dhHashEntrega": {
+        "Required": true,
+        "Type": null
+    },
+    "evCECTe/infEntrega/chNFe": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    }
+}

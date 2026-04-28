@@ -1,0 +1,62 @@
+{
+    "aquav/vPrest": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "aquav/vAFRMM": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "aquav/xNavio": {
+        "Required": true,
+        "Type": null
+    },
+    "aquav/balsa/xBalsa": {
+        "Required": true,
+        "Type": null
+    },
+    "aquav/nViag": {
+        "Required": false,
+        "Type": null
+    },
+    "aquav/direc": {
+        "Required": true,
+        "Type": null
+    },
+    "aquav/irin": {
+        "Required": true,
+        "Type": null
+    },
+    "aquav/detCont/nCont": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TContainer"
+    },
+    "aquav/detCont/lacre/nLacre": {
+        "Required": true,
+        "Type": null
+    },
+    "aquav/detCont/infDoc/infNF/serie": {
+        "Required": true,
+        "Type": null
+    },
+    "aquav/detCont/infDoc/infNF/nDoc": {
+        "Required": true,
+        "Type": null
+    },
+    "aquav/detCont/infDoc/infNF/unidRat": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_0302_0303"
+    },
+    "aquav/detCont/infDoc/infNFe/chave": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    },
+    "aquav/detCont/infDoc/infNFe/unidRat": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_0302_0303"
+    },
+    "aquav/tpNav": {
+        "Required": false,
+        "Type": null
+    }
+}

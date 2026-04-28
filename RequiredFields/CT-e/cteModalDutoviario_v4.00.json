@@ -1,0 +1,34 @@
+{
+    "duto/vTar": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_0906Opc"
+    },
+    "duto/dIni": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+    },
+    "duto/dFim": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+    },
+    "duto/classDuto": {
+        "Required": false,
+        "Type": null
+    },
+    "duto/tpContratacao": {
+        "Required": false,
+        "Type": null
+    },
+    "duto/codPontoEntrada": {
+        "Required": false,
+        "Type": null
+    },
+    "duto/codPontoSaida": {
+        "Required": false,
+        "Type": null
+    },
+    "duto/nContrato": {
+        "Required": false,
+        "Type": null
+    }
+}

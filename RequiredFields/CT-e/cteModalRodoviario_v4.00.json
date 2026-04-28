@@ -1,0 +1,38 @@
+{
+    "rodo/RNTRC": {
+        "Required": true,
+        "Type": null
+    },
+    "rodo/occ/serie": {
+        "Required": false,
+        "Type": null
+    },
+    "rodo/occ/nOcc": {
+        "Required": true,
+        "Type": null
+    },
+    "rodo/occ/dEmi": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+    },
+    "rodo/occ/emiOcc/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+    },
+    "rodo/occ/emiOcc/cInt": {
+        "Required": false,
+        "Type": null
+    },
+    "rodo/occ/emiOcc/IE": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TIe"
+    },
+    "rodo/occ/emiOcc/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "rodo/occ/emiOcc/fone": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+    }
+}

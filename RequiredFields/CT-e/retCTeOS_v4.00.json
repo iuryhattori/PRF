@@ -1,0 +1,74 @@
+{
+    "retCTeOS/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "retCTeOS/cUF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+    },
+    "retCTeOS/verAplic": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TVerAplic"
+    },
+    "retCTeOS/cStat": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TStat"
+    },
+    "retCTeOS/xMotivo": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+    },
+    "retCTeOS/protCTe/infProt/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "retCTeOS/protCTe/infProt/verAplic": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TVerAplic"
+    },
+    "retCTeOS/protCTe/infProt/chCTe": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    },
+    "retCTeOS/protCTe/infProt/dhRecbto": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+    },
+    "retCTeOS/protCTe/infProt/nProt": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+    },
+    "retCTeOS/protCTe/infProt/digVal": {
+        "Required": false,
+        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+    },
+    "retCTeOS/protCTe/infProt/cStat": {
+        "Required": true,
+        "Type": null
+    },
+    "retCTeOS/protCTe/infProt/xMotivo": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+    },
+    "retCTeOS/protCTe/infFisco/cMsg": {
+        "Required": true,
+        "Type": null
+    },
+    "retCTeOS/protCTe/infFisco/xMsg": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+    },
+    "retCTeOS/protCTe/Signature/SignedInfo/Reference/Transforms/Transform/XPath": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}string"
+    },
+    "retCTeOS/protCTe/Signature/SignedInfo/Reference/DigestValue": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+    },
+    "retCTeOS/protCTe/Signature/KeyInfo/X509Data/X509Certificate": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+    }
+}

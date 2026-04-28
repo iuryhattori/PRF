@@ -1,0 +1,14 @@
+{
+    "evPrestDesacordo/descEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "evPrestDesacordo/indDesacordoOper": {
+        "Required": true,
+        "Type": null
+    },
+    "evPrestDesacordo/xObs": {
+        "Required": true,
+        "Type": null
+    }
+}

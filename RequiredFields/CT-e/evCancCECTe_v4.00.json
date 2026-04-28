@@ -1,0 +1,14 @@
+{
+    "evCancCECTe/descEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "evCancCECTe/nProt": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+    },
+    "evCancCECTe/nProtCE": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+    }
+}

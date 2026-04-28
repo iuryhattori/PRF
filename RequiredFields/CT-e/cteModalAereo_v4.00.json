@@ -1,0 +1,50 @@
+{
+    "aereo/nMinu": {
+        "Required": false,
+        "Type": null
+    },
+    "aereo/nOCA": {
+        "Required": false,
+        "Type": null
+    },
+    "aereo/dPrevAereo": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+    },
+    "aereo/natCarga/xDime": {
+        "Required": false,
+        "Type": null
+    },
+    "aereo/natCarga/cInfManu": {
+        "Required": false,
+        "Type": null
+    },
+    "aereo/tarifa/CL": {
+        "Required": true,
+        "Type": null
+    },
+    "aereo/tarifa/cTar": {
+        "Required": false,
+        "Type": null
+    },
+    "aereo/tarifa/vTar": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "aereo/peri/nONU": {
+        "Required": true,
+        "Type": null
+    },
+    "aereo/peri/qTotEmb": {
+        "Required": true,
+        "Type": null
+    },
+    "aereo/peri/infTotAP/qTotProd": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1104"
+    },
+    "aereo/peri/infTotAP/uniAP": {
+        "Required": true,
+        "Type": null
+    }
+}

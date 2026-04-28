@@ -1,0 +1,14 @@
+{
+    "consStatServCTe/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "consStatServCTe/cUF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+    },
+    "consStatServCTe/xServ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TServ"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "procEventoCTe/eventoCTe/infEvento/cOrgao": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCOrgaoIBGE"
+    },
+    "procEventoCTe/eventoCTe/infEvento/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "procEventoCTe/eventoCTe/infEvento/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+    },
+    "procEventoCTe/eventoCTe/infEvento/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "procEventoCTe/eventoCTe/infEvento/chCTe": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    },
+    "procEventoCTe/eventoCTe/infEvento/dhEvento": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+    },
+    "procEventoCTe/eventoCTe/infEvento/tpEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "procEventoCTe/eventoCTe/infEvento/nSeqEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "procEventoCTe/eventoCTe/infEvento/infSolicNFF/xSolic": {
+        "Required": true,
+        "Type": null
+    },
+    "procEventoCTe/eventoCTe/infEvento/infPAA/CNPJPAA": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+    },
+    "procEventoCTe/eventoCTe/infEvento/infPAA/PAASignature/SignatureValue": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+    },
+    "procEventoCTe/eventoCTe/infEvento/infPAA/PAASignature/RSAKeyValue/Modulus": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+    },
+    "procEventoCTe/eventoCTe/infEvento/infPAA/PAASignature/RSAKeyValue/Exponent": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+    },
+    "procEventoCTe/eventoCTe/Signature/SignedInfo/Reference/Transforms/Transform/XPath": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}string"
+    },
+    "procEventoCTe/eventoCTe/Signature/SignedInfo/Reference/DigestValue": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+    },
+    "procEventoCTe/eventoCTe/Signature/KeyInfo/X509Data/X509Certificate": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+    },
+    "procEventoCTe/retEventoCTe/infEvento/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "procEventoCTe/retEventoCTe/infEvento/verAplic": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TVerAplic"
+    },
+    "procEventoCTe/retEventoCTe/infEvento/cOrgao": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCOrgaoIBGE"
+    },
+    "procEventoCTe/retEventoCTe/infEvento/cStat": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TStat"
+    },
+    "procEventoCTe/retEventoCTe/infEvento/xMotivo": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+    },
+    "procEventoCTe/retEventoCTe/infEvento/chCTe": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    },
+    "procEventoCTe/retEventoCTe/infEvento/tpEvento": {
+        "Required": false,
+        "Type": null
+    },
+    "procEventoCTe/retEventoCTe/infEvento/xEvento": {
+        "Required": false,
+        "Type": null
+    },
+    "procEventoCTe/retEventoCTe/infEvento/nSeqEvento": {
+        "Required": false,
+        "Type": null
+    },
+    "procEventoCTe/retEventoCTe/infEvento/dhRegEvento": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+    },
+    "procEventoCTe/retEventoCTe/infEvento/nProt": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+    },
+    "procEventoCTe/retEventoCTe/Signature/SignedInfo/Reference/Transforms/Transform/XPath": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}string"
+    },
+    "procEventoCTe/retEventoCTe/Signature/SignedInfo/Reference/DigestValue": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+    },
+    "procEventoCTe/retEventoCTe/Signature/KeyInfo/X509Data/X509Certificate": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+    }
+}

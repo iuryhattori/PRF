@@ -1,0 +1,94 @@
+{
+    "evGTV/descEvento": {
+        "Required": true,
+        "Type": null
+    },
+    "evGTV/infGTV/nDoc": {
+        "Required": true,
+        "Type": null
+    },
+    "evGTV/infGTV/id": {
+        "Required": true,
+        "Type": null
+    },
+    "evGTV/infGTV/serie": {
+        "Required": false,
+        "Type": null
+    },
+    "evGTV/infGTV/subserie": {
+        "Required": false,
+        "Type": null
+    },
+    "evGTV/infGTV/dEmi": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TData"
+    },
+    "evGTV/infGTV/nDV": {
+        "Required": true,
+        "Type": null
+    },
+    "evGTV/infGTV/qCarga": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1104"
+    },
+    "evGTV/infGTV/infEspecie/tpEspecie": {
+        "Required": true,
+        "Type": null
+    },
+    "evGTV/infGTV/infEspecie/vEspecie": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "evGTV/infGTV/rem/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+    },
+    "evGTV/infGTV/rem/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "evGTV/infGTV/rem/IE": {
+        "Required": false,
+        "Type": null
+    },
+    "evGTV/infGTV/rem/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "evGTV/infGTV/rem/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "evGTV/infGTV/dest/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+    },
+    "evGTV/infGTV/dest/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "evGTV/infGTV/dest/IE": {
+        "Required": false,
+        "Type": null
+    },
+    "evGTV/infGTV/dest/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "evGTV/infGTV/dest/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "evGTV/infGTV/placa": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TPlaca"
+    },
+    "evGTV/infGTV/UF": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "evGTV/infGTV/RNTRC": {
+        "Required": false,
+        "Type": null
+    }
+}

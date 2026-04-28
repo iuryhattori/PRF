@@ -1,0 +1,594 @@
+{
+    "GTVeProc/GTVe/infCte/ide/cUF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodUfIBGE"
+    },
+    "GTVeProc/GTVe/infCte/ide/cCT": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/CFOP": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCfop"
+    },
+    "GTVeProc/GTVe/infCte/ide/natOp": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/mod": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TModGTVe"
+    },
+    "GTVeProc/GTVe/infCte/ide/serie": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/nCT": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TNF"
+    },
+    "GTVeProc/GTVe/infCte/ide/dhEmi": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tpImp": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tpEmis": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/cDV": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "GTVeProc/GTVe/infCte/ide/tpCTe": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/verProc": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/cMunEnv": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+    },
+    "GTVeProc/GTVe/infCte/ide/xMunEnv": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/UFEnv": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "GTVeProc/GTVe/infCte/ide/modal": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tpServ": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/indIEToma": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/dhSaidaOrig": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/dhChegadaDest": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/toma/toma": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/toma": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/IE": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/xFant": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/fone": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/xLgr": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/nro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/xCpl": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/xBairro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/cMun": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/xMun": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/CEP": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/cPais": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/enderToma/xPais": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/ide/tomaTerceiro/email": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TEmail"
+    },
+    "GTVeProc/GTVe/infCte/ide/dhCont": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+    },
+    "GTVeProc/GTVe/infCte/ide/xJust": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/compl/xCaracAd": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/compl/xCaracSer": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/compl/xEmi": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/compl/xObs": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/compl/ObsCont/xTexto": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/compl/ObsFisco/xTexto": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+    },
+    "GTVeProc/GTVe/infCte/emit/IE": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/IEST": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/xFant": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/xLgr": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/nro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/xCpl": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/xBairro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/cMun": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/xMun": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/CEP": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX"
+    },
+    "GTVeProc/GTVe/infCte/emit/enderEmit/fone": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+    },
+    "GTVeProc/GTVe/infCte/rem/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+    },
+    "GTVeProc/GTVe/infCte/rem/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "GTVeProc/GTVe/infCte/rem/IE": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/xFant": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/fone": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/xLgr": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/nro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/xCpl": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/xBairro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/cMun": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/xMun": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/CEP": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/cPais": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/enderReme/xPais": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/rem/email": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpjOpc"
+    },
+    "GTVeProc/GTVe/infCte/dest/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "GTVeProc/GTVe/infCte/dest/IE": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/xNome": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/fone": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+    },
+    "GTVeProc/GTVe/infCte/dest/ISUF": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/xLgr": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/nro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/xCpl": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/xBairro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/cMun": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/xMun": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/CEP": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/cPais": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/enderDest/xPais": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/dest/email": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TEmail"
+    },
+    "GTVeProc/GTVe/infCte/origem/xLgr": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/origem/nro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/origem/xCpl": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/origem/xBairro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/origem/cMun": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+    },
+    "GTVeProc/GTVe/infCte/origem/xMun": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/origem/CEP": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/origem/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX"
+    },
+    "GTVeProc/GTVe/infCte/origem/fone": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+    },
+    "GTVeProc/GTVe/infCte/destino/xLgr": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/destino/nro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/destino/xCpl": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/destino/xBairro": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/destino/cMun": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCodMunIBGE"
+    },
+    "GTVeProc/GTVe/infCte/destino/xMun": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/destino/CEP": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/destino/UF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUF_sem_EX"
+    },
+    "GTVeProc/GTVe/infCte/destino/fone": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TFone"
+    },
+    "GTVeProc/GTVe/infCte/detGTV/infEspecie/tpEspecie": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/detGTV/infEspecie/vEspecie": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1302"
+    },
+    "GTVeProc/GTVe/infCte/detGTV/infEspecie/tpNumerario": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/detGTV/infEspecie/xMoedaEstr": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/detGTV/qCarga": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDec_1104"
+    },
+    "GTVeProc/GTVe/infCte/detGTV/infVeiculo/placa": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TPlaca"
+    },
+    "GTVeProc/GTVe/infCte/detGTV/infVeiculo/UF": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TUf"
+    },
+    "GTVeProc/GTVe/infCte/detGTV/infVeiculo/RNTRC": {
+        "Required": false,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/autXML/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+    },
+    "GTVeProc/GTVe/infCte/autXML/CPF": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCpf"
+    },
+    "GTVeProc/GTVe/infCte/infRespTec/CNPJ": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TCnpj"
+    },
+    "GTVeProc/GTVe/infCte/infRespTec/xContato": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/infRespTec/email": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TEmail"
+    },
+    "GTVeProc/GTVe/infCte/infRespTec/fone": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/infRespTec/idCSRT": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCte/infRespTec/hashCSRT": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/infCTeSupl/qrCodCTe": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/GTVe/Signature/SignedInfo/Reference/Transforms/Transform/XPath": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}string"
+    },
+    "GTVeProc/GTVe/Signature/SignedInfo/Reference/DigestValue": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+    },
+    "GTVeProc/GTVe/Signature/KeyInfo/X509Data/X509Certificate": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+    },
+    "GTVeProc/protCTe/infProt/tpAmb": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TAmb"
+    },
+    "GTVeProc/protCTe/infProt/verAplic": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TVerAplic"
+    },
+    "GTVeProc/protCTe/infProt/chCTe": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TChDFe"
+    },
+    "GTVeProc/protCTe/infProt/dhRecbto": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TDateTimeUTC"
+    },
+    "GTVeProc/protCTe/infProt/nProt": {
+        "Required": false,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TProt"
+    },
+    "GTVeProc/protCTe/infProt/digVal": {
+        "Required": false,
+        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+    },
+    "GTVeProc/protCTe/infProt/cStat": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/protCTe/infProt/xMotivo": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+    },
+    "GTVeProc/protCTe/infFisco/cMsg": {
+        "Required": true,
+        "Type": null
+    },
+    "GTVeProc/protCTe/infFisco/xMsg": {
+        "Required": true,
+        "Type": "{http://www.portalfiscal.inf.br/cte}TMotivo"
+    },
+    "GTVeProc/protCTe/Signature/SignedInfo/Reference/Transforms/Transform/XPath": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}string"
+    },
+    "GTVeProc/protCTe/Signature/SignedInfo/Reference/DigestValue": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2000/09/xmldsig#}DigestValueType"
+    },
+    "GTVeProc/protCTe/Signature/KeyInfo/X509Data/X509Certificate": {
+        "Required": true,
+        "Type": "{http://www.w3.org/2001/XMLSchema}base64Binary"
+    }
+}
