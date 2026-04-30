@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cteProc xmlns:ns0="http://www.w3.org/2000/09/xmldsig#" versao="4.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="4.00" Id="CTe00000000000000000000000000000000000000000000">
+      <ide>
+        <cUF>23</cUF>
+        <cCT>61574472</cCT>
+        <CFOP>6353</CFOP>
+        <natOp>PRESTAÇÃO DE SERVIÇO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>0</serie>
+        <nCT>636945</nCT>
+        <dhEmi>2026-04-12T04:23:47-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0.0</verProc>
+        <cMunEnv>4106902</cMunEnv>
+        <xMunEnv>Curitiba</xMunEnv>
+        <UFEnv>PR</UFEnv>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+        <cMunIni>2304400</cMunIni>
+        <xMunIni>Fortaleza</xMunIni>
+        <UFIni>CE</UFIni>
+        <cMunFim>2927408</cMunFim>
+        <xMunFim>Salvador</xMunFim>
+        <UFFim>BA</UFFim>
+        <retira>1</retira>
+        <indIEToma>1</indIEToma>
+        <toma3>
+          <toma>0</toma>
+        </toma3>
+      </ide>
+      <emit>
+        <CNPJ>61827035000193</CNPJ>
+        <IE>54830604174</IE>
+        <xNome>TEIXEIRA RAMOS S/A</xNome>
+        <xFant>S.A.</xFant>
+        <enderEmit>
+          <xLgr>Recanto Câmara</xLgr>
+          <nro>3</nro>
+          <xBairro>Vila Da Ária</xBairro>
+          <cMun>4314902</cMun>
+          <xMun>Porto Alegre</xMun>
+          <CEP>79620576</CEP>
+          <UF>RS</UF>
+        </enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>06985731000110</CNPJ>
+        <IE>82925191989</IE>
+        <xNome>PIMENTA</xNome>
+        <fone>55721502979</fone>
+        <enderReme>
+          <xLgr>Feira Matheus Araújo</xLgr>
+          <nro>7</nro>
+          <xBairro>Vila Do Pombal</xBairro>
+          <cMun>3304557</cMun>
+          <xMun>Rio de Janeiro</xMun>
+          <CEP>37299698</CEP>
+          <UF>RJ</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderReme>
+        <email>sousacaroline@example.org</email>
+      </rem>
+      <dest>
+        <CPF>25078491341</CPF>
+        <IE>01156073450</IE>
+        <xNome>LAÍS SIQUEIRA</xNome>
+        <fone>64757413289</fone>
+        <enderDest>
+          <xLgr>Campo de Casa Grande</xLgr>
+          <nro>61</nro>
+          <xBairro>Paraíso</xBairro>
+          <cMun>5300108</cMun>
+          <xMun>Brasília</xMun>
+          <CEP>14959428</CEP>
+          <UF>DF</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderDest>
+        <email>aaparecida@example.org</email>
+      </dest>
+      <vPrest>
+        <vTPrest>4197.35</vTPrest>
+        <vRec>4197.35</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>4075.10</vComp>
+        </Comp>
+        <Comp>
+          <xNome>SEGURO</xNome>
+          <vComp>122.25</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS45>
+            <CST>40</CST>
+          </ICMS45>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>166319.04</vCarga>
+          <proPred>VESTUÁRIO</proPred>
+          <infQ>
+            <cUnid>01</cUnid>
+            <tpMed>PESO BRUTO</tpMed>
+            <qCarga>3305.1168</qCarga>
+          </infQ>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>41111111111111111111111111111111111111111111</chave>
+          </infNFe>
+        </infDoc>
+        <infModal versaoModal="4.00">
+          <rodo>
+            <RNTRC>11786984</RNTRC>
+            <veic>
+              <placa>GFN5V67</placa>
+              <UF>PR</UF>
+            </veic>
+          </rodo>
+        </infModal>
+      </infCTeNorm>
+    </infCte>
+    <infCTeSupl>
+      <qrCodCTe>https://www.cte.fazenda.gov.br/portal/consultar?chCTe=00000000000000000000000000000000000000000000&amp;tpAmb=2</qrCodCTe>
+    </infCTeSupl>
+    <ns0:Signature>
+      <ns0:SignedInfo>
+        <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns0:Reference URI="#CTe00000000000000000000000000000000000000000000">
+          <ns0:Transforms>
+            <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns0:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns0:Transforms>
+          <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns0:DigestValue>TW9ja0Jhc2U2NA==</ns0:DigestValue>
+        </ns0:Reference>
+      </ns0:SignedInfo>
+      <ns0:SignatureValue>TW9ja0Jhc2U2NA==</ns0:SignatureValue>
+      <ns0:KeyInfo>
+        <ns0:X509Data>
+          <ns0:X509Certificate>TW9ja0Jhc2U2NA==</ns0:X509Certificate>
+        </ns0:X509Data>
+      </ns0:KeyInfo>
+    </ns0:Signature>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_PL_CTe_400</verAplic>
+      <chCTe>23260461827035000193570000006369451615744720</chCTe>
+      <dhRecbto>2026-04-29T20:04:17-03:00</dhRecbto>
+      <nProt>807999935454823</nProt>
+      <digVal>d2hgNfM+ZhD7JK3w6PfL2fHYQkk=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

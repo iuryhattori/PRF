@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cteProc xmlns:ns0="http://www.w3.org/2000/09/xmldsig#" versao="4.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="4.00" Id="CTe00000000000000000000000000000000000000000000">
+      <ide>
+        <cUF>35</cUF>
+        <cCT>47313828</cCT>
+        <CFOP>6360</CFOP>
+        <natOp>PRESTAÇÃO DE SERVIÇO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>0</serie>
+        <nCT>147020</nCT>
+        <dhEmi>2026-04-17T20:48:05-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0.0</verProc>
+        <cMunEnv>3550308</cMunEnv>
+        <xMunEnv>São Paulo</xMunEnv>
+        <UFEnv>SP</UFEnv>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+        <cMunIni>3550308</cMunIni>
+        <xMunIni>São Paulo</xMunIni>
+        <UFIni>SP</UFIni>
+        <cMunFim>3304557</cMunFim>
+        <xMunFim>Rio de Janeiro</xMunFim>
+        <UFFim>RJ</UFFim>
+        <retira>1</retira>
+        <indIEToma>1</indIEToma>
+        <toma3>
+          <toma>0</toma>
+        </toma3>
+      </ide>
+      <emit>
+        <CNPJ>60491375000123</CNPJ>
+        <IE>87607473221</IE>
+        <xNome>SAMPAIO E FILHOS</xNome>
+        <xFant>- EI</xFant>
+        <enderEmit>
+          <xLgr>Viela Danilo Azevedo</xLgr>
+          <nro>19</nro>
+          <xBairro>Vila Dos Anjos</xBairro>
+          <cMun>3106200</cMun>
+          <xMun>Belo Horizonte</xMun>
+          <CEP>71280567</CEP>
+          <UF>MG</UF>
+        </enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>94307162000110</CNPJ>
+        <IE>06981079251</IE>
+        <xNome>FARIAS</xNome>
+        <fone>29217267069</fone>
+        <enderReme>
+          <xLgr>Lago de Cardoso</xLgr>
+          <nro>779</nro>
+          <xBairro>Vila Madre Gertrudes 4ª Seção</xBairro>
+          <cMun>4106902</cMun>
+          <xMun>Curitiba</xMun>
+          <CEP>18658381</CEP>
+          <UF>PR</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderReme>
+        <email>da-cunhavalentim@example.net</email>
+      </rem>
+      <dest>
+        <CPF>10389726478</CPF>
+        <IE>72281150793</IE>
+        <xNome>DANILO DA PAZ</xNome>
+        <fone>15283555077</fone>
+        <enderDest>
+          <xLgr>Jardim Caldeira</xLgr>
+          <nro>39</nro>
+          <xBairro>Camponesa 2ª Seção</xBairro>
+          <cMun>2304400</cMun>
+          <xMun>Fortaleza</xMun>
+          <CEP>40617282</CEP>
+          <UF>CE</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderDest>
+        <email>siqueiradavi-lucas@example.com</email>
+      </dest>
+      <vPrest>
+        <vTPrest>3433.10</vTPrest>
+        <vRec>3433.10</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>3333.11</vComp>
+        </Comp>
+        <Comp>
+          <xNome>SEGURO</xNome>
+          <vComp>99.99</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS60>
+            <CST>60</CST>
+            <vBCSTRet>0.00</vBCSTRet>
+            <vICMSSTRet>0.00</vICMSSTRet>
+            <pICMSSTRet>0.00</pICMSSTRet>
+            <vCred>0.00</vCred>
+          </ICMS60>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>38169.83</vCarga>
+          <proPred>AUTOPEÇAS</proPred>
+          <infQ>
+            <cUnid>03</cUnid>
+            <tpMed>QUANTIDADE</tpMed>
+            <qCarga>4546.7203</qCarga>
+          </infQ>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>41111111111111111111111111111111111111111111</chave>
+          </infNFe>
+        </infDoc>
+        <infModal versaoModal="4.00">
+          <rodo>
+            <RNTRC>46661403</RNTRC>
+            <veic>
+              <placa>GTL2D96</placa>
+              <UF>RS</UF>
+            </veic>
+          </rodo>
+        </infModal>
+      </infCTeNorm>
+    </infCte>
+    <infCTeSupl>
+      <qrCodCTe>https://www.cte.fazenda.gov.br/portal/consultar?chCTe=00000000000000000000000000000000000000000000&amp;tpAmb=2</qrCodCTe>
+    </infCTeSupl>
+    <ns0:Signature>
+      <ns0:SignedInfo>
+        <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns0:Reference URI="#CTe00000000000000000000000000000000000000000000">
+          <ns0:Transforms>
+            <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns0:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns0:Transforms>
+          <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns0:DigestValue>TW9ja0Jhc2U2NA==</ns0:DigestValue>
+        </ns0:Reference>
+      </ns0:SignedInfo>
+      <ns0:SignatureValue>TW9ja0Jhc2U2NA==</ns0:SignatureValue>
+      <ns0:KeyInfo>
+        <ns0:X509Data>
+          <ns0:X509Certificate>TW9ja0Jhc2U2NA==</ns0:X509Certificate>
+        </ns0:X509Data>
+      </ns0:KeyInfo>
+    </ns0:Signature>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_PL_CTe_400</verAplic>
+      <chCTe>35260460491375000123570000001470201473138283</chCTe>
+      <dhRecbto>2026-04-29T19:35:15-03:00</dhRecbto>
+      <nProt>895701402423829</nProt>
+      <digVal>s0J3tq8ev6mXPnAt1Su4rPoUK6g=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

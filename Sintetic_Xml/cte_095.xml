@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cteProc xmlns:ns0="http://www.w3.org/2000/09/xmldsig#" versao="4.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="4.00" Id="CTe00000000000000000000000000000000000000000000">
+      <ide>
+        <cUF>41</cUF>
+        <cCT>90819707</cCT>
+        <CFOP>6351</CFOP>
+        <natOp>PRESTAÇÃO DE SERVIÇO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>0</serie>
+        <nCT>363947</nCT>
+        <dhEmi>2026-04-07T22:44:01-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0.0</verProc>
+        <cMunEnv>3304557</cMunEnv>
+        <xMunEnv>Rio de Janeiro</xMunEnv>
+        <UFEnv>RJ</UFEnv>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+        <cMunIni>4106902</cMunIni>
+        <xMunIni>Curitiba</xMunIni>
+        <UFIni>PR</UFIni>
+        <cMunFim>3509502</cMunFim>
+        <xMunFim>Campinas</xMunFim>
+        <UFFim>SP</UFFim>
+        <retira>1</retira>
+        <indIEToma>1</indIEToma>
+        <toma3>
+          <toma>0</toma>
+        </toma3>
+      </ide>
+      <emit>
+        <CNPJ>03251978000114</CNPJ>
+        <IE>88061173945</IE>
+        <xNome>DA MATA</xNome>
+        <xFant>S/A</xFant>
+        <enderEmit>
+          <xLgr>Morro Maria Liz Abreu</xLgr>
+          <nro>336</nro>
+          <xBairro>Camargos</xBairro>
+          <cMun>2927408</cMun>
+          <xMun>Salvador</xMun>
+          <CEP>03605612</CEP>
+          <UF>BA</UF>
+        </enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>38512749000190</CNPJ>
+        <IE>15145406034</IE>
+        <xNome>CARDOSO CALDEIRA S/A</xNome>
+        <fone>68642508231</fone>
+        <enderReme>
+          <xLgr>Aeroporto Ana Liz Nunes</xLgr>
+          <nro>404</nro>
+          <xBairro>Sport Club</xBairro>
+          <cMun>2304400</cMun>
+          <xMun>Fortaleza</xMun>
+          <CEP>83620685</CEP>
+          <UF>CE</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderReme>
+        <email>mariana06@example.org</email>
+      </rem>
+      <dest>
+        <CPF>86975413010</CPF>
+        <IE>07848014503</IE>
+        <xNome>SRA. ISIS CARDOSO</xNome>
+        <fone>98384836899</fone>
+        <enderDest>
+          <xLgr>Parque João Vitor Barros</xLgr>
+          <nro>94</nro>
+          <xBairro>Coqueiros</xBairro>
+          <cMun>5300108</cMun>
+          <xMun>Brasília</xMun>
+          <CEP>46717806</CEP>
+          <UF>DF</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderDest>
+        <email>jesuscecilia@example.net</email>
+      </dest>
+      <vPrest>
+        <vTPrest>4422.70</vTPrest>
+        <vRec>4422.70</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>4293.88</vComp>
+        </Comp>
+        <Comp>
+          <xNome>SEGURO</xNome>
+          <vComp>128.82</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS60>
+            <CST>60</CST>
+            <vBCSTRet>0.00</vBCSTRet>
+            <vICMSSTRet>0.00</vICMSSTRet>
+            <pICMSSTRet>0.00</pICMSSTRet>
+            <vCred>0.00</vCred>
+          </ICMS60>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>57441.08</vCarga>
+          <proPred>ELETRODOMÉSTICOS</proPred>
+          <infQ>
+            <cUnid>00</cUnid>
+            <tpMed>CUBAGEM</tpMed>
+            <qCarga>4535.7868</qCarga>
+          </infQ>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>41111111111111111111111111111111111111111111</chave>
+          </infNFe>
+        </infDoc>
+        <infModal versaoModal="4.00">
+          <rodo>
+            <RNTRC>36202844</RNTRC>
+            <veic>
+              <placa>JVC4Q48</placa>
+              <UF>DF</UF>
+            </veic>
+          </rodo>
+        </infModal>
+      </infCTeNorm>
+    </infCte>
+    <infCTeSupl>
+      <qrCodCTe>https://www.cte.fazenda.gov.br/portal/consultar?chCTe=00000000000000000000000000000000000000000000&amp;tpAmb=2</qrCodCTe>
+    </infCTeSupl>
+    <ns0:Signature>
+      <ns0:SignedInfo>
+        <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns0:Reference URI="#CTe00000000000000000000000000000000000000000000">
+          <ns0:Transforms>
+            <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns0:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns0:Transforms>
+          <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns0:DigestValue>TW9ja0Jhc2U2NA==</ns0:DigestValue>
+        </ns0:Reference>
+      </ns0:SignedInfo>
+      <ns0:SignatureValue>TW9ja0Jhc2U2NA==</ns0:SignatureValue>
+      <ns0:KeyInfo>
+        <ns0:X509Data>
+          <ns0:X509Certificate>TW9ja0Jhc2U2NA==</ns0:X509Certificate>
+        </ns0:X509Data>
+      </ns0:KeyInfo>
+    </ns0:Signature>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_PL_CTe_400</verAplic>
+      <chCTe>41260403251978000114570000003639471908197079</chCTe>
+      <dhRecbto>2026-04-28T18:06:21-03:00</dhRecbto>
+      <nProt>821362433967940</nProt>
+      <digVal>7gKJfgga9ND8mj+xFfecv+P4sqY=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cteProc xmlns:ns0="http://www.w3.org/2000/09/xmldsig#" versao="4.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="4.00" Id="CTe00000000000000000000000000000000000000000000">
+      <ide>
+        <cUF>35</cUF>
+        <cCT>39945771</cCT>
+        <CFOP>6353</CFOP>
+        <natOp>PRESTAÇÃO DE SERVIÇO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>0</serie>
+        <nCT>172394</nCT>
+        <dhEmi>2026-04-21T10:57:39-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0.0</verProc>
+        <cMunEnv>3304557</cMunEnv>
+        <xMunEnv>Rio de Janeiro</xMunEnv>
+        <UFEnv>RJ</UFEnv>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+        <cMunIni>3509502</cMunIni>
+        <xMunIni>Campinas</xMunIni>
+        <UFIni>SP</UFIni>
+        <cMunFim>3509502</cMunFim>
+        <xMunFim>Campinas</xMunFim>
+        <UFFim>SP</UFFim>
+        <retira>1</retira>
+        <indIEToma>1</indIEToma>
+        <toma3>
+          <toma>0</toma>
+        </toma3>
+      </ide>
+      <emit>
+        <CNPJ>09467358000101</CNPJ>
+        <IE>91003924592</IE>
+        <xNome>MONTENEGRO</xNome>
+        <xFant>S/A</xFant>
+        <enderEmit>
+          <xLgr>Rua Santos</xLgr>
+          <nro>63</nro>
+          <xBairro>Bonfim</xBairro>
+          <cMun>5300108</cMun>
+          <xMun>Brasília</xMun>
+          <CEP>78085935</CEP>
+          <UF>DF</UF>
+        </enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>79630428000178</CNPJ>
+        <IE>75037129650</IE>
+        <xNome>DUARTE - ME</xNome>
+        <fone>92641803870</fone>
+        <enderReme>
+          <xLgr>Fazenda de Rocha</xLgr>
+          <nro>40</nro>
+          <xBairro>Alto Caiçaras</xBairro>
+          <cMun>5300108</cMun>
+          <xMun>Brasília</xMun>
+          <CEP>80206168</CEP>
+          <UF>DF</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderReme>
+        <email>aliciaaragao@example.com</email>
+      </rem>
+      <dest>
+        <CPF>74135609848</CPF>
+        <IE>06493242252</IE>
+        <xNome>RENAN ALVES</xNome>
+        <fone>85828715088</fone>
+        <enderDest>
+          <xLgr>Sítio Moraes</xLgr>
+          <nro>56</nro>
+          <xBairro>Jardim América</xBairro>
+          <cMun>2927408</cMun>
+          <xMun>Salvador</xMun>
+          <CEP>40566727</CEP>
+          <UF>BA</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderDest>
+        <email>rgarcia@example.com</email>
+      </dest>
+      <vPrest>
+        <vTPrest>1814.40</vTPrest>
+        <vRec>1814.40</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>1761.55</vComp>
+        </Comp>
+        <Comp>
+          <xNome>SEGURO</xNome>
+          <vComp>52.85</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS45>
+            <CST>51</CST>
+          </ICMS45>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>18014.60</vCarga>
+          <proPred>ELETRODOMÉSTICOS</proPred>
+          <infQ>
+            <cUnid>03</cUnid>
+            <tpMed>QUANTIDADE</tpMed>
+            <qCarga>2924.1172</qCarga>
+          </infQ>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>41111111111111111111111111111111111111111111</chave>
+          </infNFe>
+        </infDoc>
+        <infModal versaoModal="4.00">
+          <rodo>
+            <RNTRC>92926673</RNTRC>
+            <veic>
+              <placa>LNS6P30</placa>
+              <UF>SP</UF>
+            </veic>
+          </rodo>
+        </infModal>
+      </infCTeNorm>
+    </infCte>
+    <infCTeSupl>
+      <qrCodCTe>https://www.cte.fazenda.gov.br/portal/consultar?chCTe=00000000000000000000000000000000000000000000&amp;tpAmb=2</qrCodCTe>
+    </infCTeSupl>
+    <ns0:Signature>
+      <ns0:SignedInfo>
+        <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns0:Reference URI="#CTe00000000000000000000000000000000000000000000">
+          <ns0:Transforms>
+            <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns0:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns0:Transforms>
+          <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns0:DigestValue>TW9ja0Jhc2U2NA==</ns0:DigestValue>
+        </ns0:Reference>
+      </ns0:SignedInfo>
+      <ns0:SignatureValue>TW9ja0Jhc2U2NA==</ns0:SignatureValue>
+      <ns0:KeyInfo>
+        <ns0:X509Data>
+          <ns0:X509Certificate>TW9ja0Jhc2U2NA==</ns0:X509Certificate>
+        </ns0:X509Data>
+      </ns0:KeyInfo>
+    </ns0:Signature>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_PL_CTe_400</verAplic>
+      <chCTe>35260409467358000101570000001723941399457715</chCTe>
+      <dhRecbto>2026-04-26T11:54:38-03:00</dhRecbto>
+      <nProt>277389402764329</nProt>
+      <digVal>x/KKCaWHY4cYhwcKrNO3ZTNm4RE=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

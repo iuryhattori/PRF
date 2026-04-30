@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cteProc xmlns:ns0="http://www.w3.org/2000/09/xmldsig#" versao="4.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="4.00" Id="CTe00000000000000000000000000000000000000000000">
+      <ide>
+        <cUF>29</cUF>
+        <cCT>99440079</cCT>
+        <CFOP>6353</CFOP>
+        <natOp>PRESTAÇÃO DE SERVIÇO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>0</serie>
+        <nCT>915268</nCT>
+        <dhEmi>2026-04-15T13:30:49-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0.0</verProc>
+        <cMunEnv>3509502</cMunEnv>
+        <xMunEnv>Campinas</xMunEnv>
+        <UFEnv>SP</UFEnv>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+        <cMunIni>2927408</cMunIni>
+        <xMunIni>Salvador</xMunIni>
+        <UFIni>BA</UFIni>
+        <cMunFim>2927408</cMunFim>
+        <xMunFim>Salvador</xMunFim>
+        <UFFim>BA</UFFim>
+        <retira>1</retira>
+        <indIEToma>1</indIEToma>
+        <toma3>
+          <toma>0</toma>
+        </toma3>
+      </ide>
+      <emit>
+        <CNPJ>43158079000196</CNPJ>
+        <IE>52798770104</IE>
+        <xNome>CAMPOS - ME</xNome>
+        <xFant>- EI</xFant>
+        <enderEmit>
+          <xLgr>Rua Lara Marques</xLgr>
+          <nro>77</nro>
+          <xBairro>Outro</xBairro>
+          <cMun>4106902</cMun>
+          <xMun>Curitiba</xMun>
+          <CEP>90414293</CEP>
+          <UF>PR</UF>
+        </enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>91270358000190</CNPJ>
+        <IE>94677966254</IE>
+        <xNome>NOVAIS S/A</xNome>
+        <fone>89026564836</fone>
+        <enderReme>
+          <xLgr>Setor Aragão</xLgr>
+          <nro>73</nro>
+          <xBairro>Novo Tupi</xBairro>
+          <cMun>2927408</cMun>
+          <xMun>Salvador</xMun>
+          <CEP>09917899</CEP>
+          <UF>BA</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderReme>
+        <email>nogueiraagatha@example.com</email>
+      </rem>
+      <dest>
+        <CPF>27609481530</CPF>
+        <IE>67735075680</IE>
+        <xNome>SRA. BRUNA TEIXEIRA</xNome>
+        <fone>97986788668</fone>
+        <enderDest>
+          <xLgr>Colônia de Campos</xLgr>
+          <nro>8</nro>
+          <xBairro>Flamengo</xBairro>
+          <cMun>3509502</cMun>
+          <xMun>Campinas</xMun>
+          <CEP>39838353</CEP>
+          <UF>SP</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderDest>
+        <email>rodriguesvitoria@example.com</email>
+      </dest>
+      <vPrest>
+        <vTPrest>2440.45</vTPrest>
+        <vRec>2440.45</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>2369.37</vComp>
+        </Comp>
+        <Comp>
+          <xNome>SEGURO</xNome>
+          <vComp>71.08</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS45>
+            <CST>51</CST>
+          </ICMS45>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>163260.08</vCarga>
+          <proPred>VESTUÁRIO</proPred>
+          <infQ>
+            <cUnid>00</cUnid>
+            <tpMed>CUBAGEM</tpMed>
+            <qCarga>1389.4045</qCarga>
+          </infQ>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>41111111111111111111111111111111111111111111</chave>
+          </infNFe>
+        </infDoc>
+        <infModal versaoModal="4.00">
+          <rodo>
+            <RNTRC>70713103</RNTRC>
+            <veic>
+              <placa>UON9Q46</placa>
+              <UF>MG</UF>
+            </veic>
+          </rodo>
+        </infModal>
+      </infCTeNorm>
+    </infCte>
+    <infCTeSupl>
+      <qrCodCTe>https://www.cte.fazenda.gov.br/portal/consultar?chCTe=00000000000000000000000000000000000000000000&amp;tpAmb=2</qrCodCTe>
+    </infCTeSupl>
+    <ns0:Signature>
+      <ns0:SignedInfo>
+        <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns0:Reference URI="#CTe00000000000000000000000000000000000000000000">
+          <ns0:Transforms>
+            <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns0:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns0:Transforms>
+          <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns0:DigestValue>TW9ja0Jhc2U2NA==</ns0:DigestValue>
+        </ns0:Reference>
+      </ns0:SignedInfo>
+      <ns0:SignatureValue>TW9ja0Jhc2U2NA==</ns0:SignatureValue>
+      <ns0:KeyInfo>
+        <ns0:X509Data>
+          <ns0:X509Certificate>TW9ja0Jhc2U2NA==</ns0:X509Certificate>
+        </ns0:X509Data>
+      </ns0:KeyInfo>
+    </ns0:Signature>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_PL_CTe_400</verAplic>
+      <chCTe>29260443158079000196570000009152681994400798</chCTe>
+      <dhRecbto>2026-04-29T20:32:52-03:00</dhRecbto>
+      <nProt>279125760625454</nProt>
+      <digVal>oEzF887rUzvzu3OO9ggHAb3JuXc=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

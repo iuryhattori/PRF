@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cteProc xmlns:ns0="http://www.w3.org/2000/09/xmldsig#" versao="4.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="4.00" Id="CTe00000000000000000000000000000000000000000000">
+      <ide>
+        <cUF>53</cUF>
+        <cCT>31166791</cCT>
+        <CFOP>6360</CFOP>
+        <natOp>PRESTAÇÃO DE SERVIÇO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>0</serie>
+        <nCT>37499</nCT>
+        <dhEmi>2026-04-26T09:13:21-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0.0</verProc>
+        <cMunEnv>3106200</cMunEnv>
+        <xMunEnv>Belo Horizonte</xMunEnv>
+        <UFEnv>MG</UFEnv>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+        <cMunIni>5300108</cMunIni>
+        <xMunIni>Brasília</xMunIni>
+        <UFIni>DF</UFIni>
+        <cMunFim>3509502</cMunFim>
+        <xMunFim>Campinas</xMunFim>
+        <UFFim>SP</UFFim>
+        <retira>1</retira>
+        <indIEToma>1</indIEToma>
+        <toma3>
+          <toma>0</toma>
+        </toma3>
+      </ide>
+      <emit>
+        <CNPJ>92530176000173</CNPJ>
+        <IE>84889784162</IE>
+        <xNome>DA MOTA S/A</xNome>
+        <xFant>S.A.</xFant>
+        <enderEmit>
+          <xLgr>Conjunto João Felipe Alves</xLgr>
+          <nro>29</nro>
+          <xBairro>Vitoria</xBairro>
+          <cMun>4314902</cMun>
+          <xMun>Porto Alegre</xMun>
+          <CEP>99048338</CEP>
+          <UF>RS</UF>
+        </enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>02567319000129</CNPJ>
+        <IE>85327396123</IE>
+        <xNome>AZEVEDO ROCHA S/A</xNome>
+        <fone>33734270998</fone>
+        <enderReme>
+          <xLgr>Estrada Barros</xLgr>
+          <nro>36</nro>
+          <xBairro>Túnel De Ibirité</xBairro>
+          <cMun>3509502</cMun>
+          <xMun>Campinas</xMun>
+          <CEP>18560603</CEP>
+          <UF>SP</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderReme>
+        <email>ramosdavi@example.org</email>
+      </rem>
+      <dest>
+        <CPF>60781342996</CPF>
+        <IE>57022635889</IE>
+        <xNome>JOÃO FELIPE FERNANDES</xNome>
+        <fone>23311013161</fone>
+        <enderDest>
+          <xLgr>Colônia José Cavalcante</xLgr>
+          <nro>359</nro>
+          <xBairro>Centro</xBairro>
+          <cMun>4106902</cMun>
+          <xMun>Curitiba</xMun>
+          <CEP>08078614</CEP>
+          <UF>PR</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderDest>
+        <email>pnogueira@example.com</email>
+      </dest>
+      <vPrest>
+        <vTPrest>3114.15</vTPrest>
+        <vRec>3114.15</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>3023.45</vComp>
+        </Comp>
+        <Comp>
+          <xNome>SEGURO</xNome>
+          <vComp>90.70</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS00>
+            <CST>00</CST>
+            <vBC>1487.83</vBC>
+            <pICMS>12.00</pICMS>
+            <vICMS>178.54</vICMS>
+          </ICMS00>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>121265.77</vCarga>
+          <proPred>ELETRODOMÉSTICOS</proPred>
+          <infQ>
+            <cUnid>00</cUnid>
+            <tpMed>CUBAGEM</tpMed>
+            <qCarga>1181.7910</qCarga>
+          </infQ>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>41111111111111111111111111111111111111111111</chave>
+          </infNFe>
+        </infDoc>
+        <infModal versaoModal="4.00">
+          <rodo>
+            <RNTRC>14299468</RNTRC>
+            <veic>
+              <placa>VZO0Q48</placa>
+              <UF>RJ</UF>
+            </veic>
+          </rodo>
+        </infModal>
+      </infCTeNorm>
+    </infCte>
+    <infCTeSupl>
+      <qrCodCTe>https://www.cte.fazenda.gov.br/portal/consultar?chCTe=00000000000000000000000000000000000000000000&amp;tpAmb=2</qrCodCTe>
+    </infCTeSupl>
+    <ns0:Signature>
+      <ns0:SignedInfo>
+        <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns0:Reference URI="#CTe00000000000000000000000000000000000000000000">
+          <ns0:Transforms>
+            <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns0:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns0:Transforms>
+          <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns0:DigestValue>TW9ja0Jhc2U2NA==</ns0:DigestValue>
+        </ns0:Reference>
+      </ns0:SignedInfo>
+      <ns0:SignatureValue>TW9ja0Jhc2U2NA==</ns0:SignatureValue>
+      <ns0:KeyInfo>
+        <ns0:X509Data>
+          <ns0:X509Certificate>TW9ja0Jhc2U2NA==</ns0:X509Certificate>
+        </ns0:X509Data>
+      </ns0:KeyInfo>
+    </ns0:Signature>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_PL_CTe_400</verAplic>
+      <chCTe>53260492530176000173570000000374991311667919</chCTe>
+      <dhRecbto>2026-04-29T10:06:09-03:00</dhRecbto>
+      <nProt>188777702596154</nProt>
+      <digVal>J3bztshA4x5Ptd9M/HJI7gagWKI=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cteProc xmlns:ns0="http://www.w3.org/2000/09/xmldsig#" versao="4.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="4.00" Id="CTe00000000000000000000000000000000000000000000">
+      <ide>
+        <cUF>29</cUF>
+        <cCT>76759924</cCT>
+        <CFOP>6351</CFOP>
+        <natOp>PRESTAÇÃO DE SERVIÇO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>0</serie>
+        <nCT>243443</nCT>
+        <dhEmi>2026-04-07T04:40:05-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0.0</verProc>
+        <cMunEnv>3509502</cMunEnv>
+        <xMunEnv>Campinas</xMunEnv>
+        <UFEnv>SP</UFEnv>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+        <cMunIni>2927408</cMunIni>
+        <xMunIni>Salvador</xMunIni>
+        <UFIni>BA</UFIni>
+        <cMunFim>3550308</cMunFim>
+        <xMunFim>São Paulo</xMunFim>
+        <UFFim>SP</UFFim>
+        <retira>1</retira>
+        <indIEToma>1</indIEToma>
+        <toma3>
+          <toma>0</toma>
+        </toma3>
+      </ide>
+      <emit>
+        <CNPJ>79045623000130</CNPJ>
+        <IE>33131220771</IE>
+        <xNome>PACHECO</xNome>
+        <xFant>e Filhos</xFant>
+        <enderEmit>
+          <xLgr>Lagoa de Marques</xLgr>
+          <nro>98</nro>
+          <xBairro>Conjunto Floramar</xBairro>
+          <cMun>5300108</cMun>
+          <xMun>Brasília</xMun>
+          <CEP>14914359</CEP>
+          <UF>DF</UF>
+        </enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>64810975000168</CNPJ>
+        <IE>56701938677</IE>
+        <xNome>CALDEIRA</xNome>
+        <fone>35069118122</fone>
+        <enderReme>
+          <xLgr>Largo da Conceição</xLgr>
+          <nro>84</nro>
+          <xBairro>Jardim Do Vale</xBairro>
+          <cMun>4314902</cMun>
+          <xMun>Porto Alegre</xMun>
+          <CEP>16710774</CEP>
+          <UF>RS</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderReme>
+        <email>nporto@example.net</email>
+      </rem>
+      <dest>
+        <CPF>49861027530</CPF>
+        <IE>10982098930</IE>
+        <xNome>DR. PEDRO MIGUEL FARIAS</xNome>
+        <fone>79764661198</fone>
+        <enderDest>
+          <xLgr>Setor Rocha</xLgr>
+          <nro>204</nro>
+          <xBairro>Vila Aeroporto Jaraguá</xBairro>
+          <cMun>3509502</cMun>
+          <xMun>Campinas</xMun>
+          <CEP>36943145</CEP>
+          <UF>SP</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderDest>
+        <email>helenasousa@example.org</email>
+      </dest>
+      <vPrest>
+        <vTPrest>5134.30</vTPrest>
+        <vRec>5134.30</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>4984.76</vComp>
+        </Comp>
+        <Comp>
+          <xNome>SEGURO</xNome>
+          <vComp>149.54</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS45>
+            <CST>41</CST>
+          </ICMS45>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>13787.77</vCarga>
+          <proPred>AUTOPEÇAS</proPred>
+          <infQ>
+            <cUnid>01</cUnid>
+            <tpMed>PESO BRUTO</tpMed>
+            <qCarga>4898.0993</qCarga>
+          </infQ>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>41111111111111111111111111111111111111111111</chave>
+          </infNFe>
+        </infDoc>
+        <infModal versaoModal="4.00">
+          <rodo>
+            <RNTRC>30178000</RNTRC>
+            <veic>
+              <placa>DGD6G45</placa>
+              <UF>DF</UF>
+            </veic>
+          </rodo>
+        </infModal>
+      </infCTeNorm>
+    </infCte>
+    <infCTeSupl>
+      <qrCodCTe>https://www.cte.fazenda.gov.br/portal/consultar?chCTe=00000000000000000000000000000000000000000000&amp;tpAmb=2</qrCodCTe>
+    </infCTeSupl>
+    <ns0:Signature>
+      <ns0:SignedInfo>
+        <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns0:Reference URI="#CTe00000000000000000000000000000000000000000000">
+          <ns0:Transforms>
+            <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns0:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns0:Transforms>
+          <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns0:DigestValue>TW9ja0Jhc2U2NA==</ns0:DigestValue>
+        </ns0:Reference>
+      </ns0:SignedInfo>
+      <ns0:SignatureValue>TW9ja0Jhc2U2NA==</ns0:SignatureValue>
+      <ns0:KeyInfo>
+        <ns0:X509Data>
+          <ns0:X509Certificate>TW9ja0Jhc2U2NA==</ns0:X509Certificate>
+        </ns0:X509Data>
+      </ns0:KeyInfo>
+    </ns0:Signature>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_PL_CTe_400</verAplic>
+      <chCTe>29260479045623000130570000002434431767599244</chCTe>
+      <dhRecbto>2026-04-29T18:13:44-03:00</dhRecbto>
+      <nProt>888916358770476</nProt>
+      <digVal>nShZZ2uYPZKvMtVzEHFK5lE6mQg=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

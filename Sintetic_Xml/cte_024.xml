@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cteProc xmlns:ns0="http://www.w3.org/2000/09/xmldsig#" versao="4.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="4.00" Id="CTe00000000000000000000000000000000000000000000">
+      <ide>
+        <cUF>43</cUF>
+        <cCT>95866457</cCT>
+        <CFOP>6354</CFOP>
+        <natOp>PRESTAÇÃO DE SERVIÇO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>0</serie>
+        <nCT>661733</nCT>
+        <dhEmi>2026-04-03T10:57:26-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0.0</verProc>
+        <cMunEnv>3550308</cMunEnv>
+        <xMunEnv>São Paulo</xMunEnv>
+        <UFEnv>SP</UFEnv>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+        <cMunIni>4314902</cMunIni>
+        <xMunIni>Porto Alegre</xMunIni>
+        <UFIni>RS</UFIni>
+        <cMunFim>4314902</cMunFim>
+        <xMunFim>Porto Alegre</xMunFim>
+        <UFFim>RS</UFFim>
+        <retira>1</retira>
+        <indIEToma>1</indIEToma>
+        <toma3>
+          <toma>0</toma>
+        </toma3>
+      </ide>
+      <emit>
+        <CNPJ>63724105000103</CNPJ>
+        <IE>36992204007</IE>
+        <xNome>FERNANDES PINTO S/A</xNome>
+        <xFant>S.A.</xFant>
+        <enderEmit>
+          <xLgr>Estação Isabella Rodrigues</xLgr>
+          <nro>2</nro>
+          <xBairro>Nazare</xBairro>
+          <cMun>4314902</cMun>
+          <xMun>Porto Alegre</xMun>
+          <CEP>60512736</CEP>
+          <UF>RS</UF>
+        </enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>15289346000129</CNPJ>
+        <IE>64468153870</IE>
+        <xNome>MARQUES DA ROSA - ME</xNome>
+        <fone>50691444522</fone>
+        <enderReme>
+          <xLgr>Campo Murilo Peixoto</xLgr>
+          <nro>436</nro>
+          <xBairro>Marilandia</xBairro>
+          <cMun>3509502</cMun>
+          <xMun>Campinas</xMun>
+          <CEP>65621643</CEP>
+          <UF>SP</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderReme>
+        <email>esthercamara@example.net</email>
+      </rem>
+      <dest>
+        <CPF>46308257117</CPF>
+        <IE>22209098888</IE>
+        <xNome>MARIA LIZ DA COSTA</xNome>
+        <fone>43851314795</fone>
+        <enderDest>
+          <xLgr>Viaduto Aparecida</xLgr>
+          <nro>11</nro>
+          <xBairro>Vila Ouro Minas</xBairro>
+          <cMun>2927408</cMun>
+          <xMun>Salvador</xMun>
+          <CEP>87773542</CEP>
+          <UF>BA</UF>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderDest>
+        <email>ana-julia23@example.org</email>
+      </dest>
+      <vPrest>
+        <vTPrest>4942.99</vTPrest>
+        <vRec>4942.99</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>4799.02</vComp>
+        </Comp>
+        <Comp>
+          <xNome>SEGURO</xNome>
+          <vComp>143.97</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS90>
+            <CST>90</CST>
+            <vBC>845.82</vBC>
+            <pICMS>12.00</pICMS>
+            <vICMS>101.50</vICMS>
+          </ICMS90>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>16132.88</vCarga>
+          <proPred>ELETRODOMÉSTICOS</proPred>
+          <infQ>
+            <cUnid>03</cUnid>
+            <tpMed>QUANTIDADE</tpMed>
+            <qCarga>3721.3042</qCarga>
+          </infQ>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>41111111111111111111111111111111111111111111</chave>
+          </infNFe>
+        </infDoc>
+        <infModal versaoModal="4.00">
+          <rodo>
+            <RNTRC>49218252</RNTRC>
+            <veic>
+              <placa>EIG3E55</placa>
+              <UF>RJ</UF>
+            </veic>
+          </rodo>
+        </infModal>
+      </infCTeNorm>
+    </infCte>
+    <infCTeSupl>
+      <qrCodCTe>https://www.cte.fazenda.gov.br/portal/consultar?chCTe=00000000000000000000000000000000000000000000&amp;tpAmb=2</qrCodCTe>
+    </infCTeSupl>
+    <ns0:Signature>
+      <ns0:SignedInfo>
+        <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns0:Reference URI="#CTe00000000000000000000000000000000000000000000">
+          <ns0:Transforms>
+            <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns0:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns0:Transforms>
+          <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns0:DigestValue>TW9ja0Jhc2U2NA==</ns0:DigestValue>
+        </ns0:Reference>
+      </ns0:SignedInfo>
+      <ns0:SignatureValue>TW9ja0Jhc2U2NA==</ns0:SignatureValue>
+      <ns0:KeyInfo>
+        <ns0:X509Data>
+          <ns0:X509Certificate>TW9ja0Jhc2U2NA==</ns0:X509Certificate>
+        </ns0:X509Data>
+      </ns0:KeyInfo>
+    </ns0:Signature>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_PL_CTe_400</verAplic>
+      <chCTe>43260463724105000103570000006617331958664577</chCTe>
+      <dhRecbto>2026-04-25T21:48:22-03:00</dhRecbto>
+      <nProt>263116917786821</nProt>
+      <digVal>+vPW2ER7YKoKRscN4LSEPfnK8/Q=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>
